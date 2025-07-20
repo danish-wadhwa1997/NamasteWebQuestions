@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  
+  ul li {
+    background-color: lightgray;
+    list-style: none;
+    padding: 5px 12px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: baseline;
+  }
+  
+  ul li button {
+    color: red;
+    background: none;
+    border: none;
+  }
